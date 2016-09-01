@@ -4,18 +4,17 @@
   	<meta charset="UTF-8">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/grid-system.css">
-  <title>Grid System</title>
+  	<title>Grid System</title>
 </head>
+
 <body>
-	<div class="contenedor">
-		<header class="primera">
+	<div class="contenedor"> <!-- CONTENDOR -->
+		<header class="primera"> <!-- HEADER -->
 			<div class="row">
-				<div class="col-2">
-				<!--LOGO -->
-			    	<img class="logo" src="img/logo.png">
+				<div class="col-2"> <!--LOGO -->
+				    <img class="logo" src="img/logo.png">
 				</div>
-				<div class="col-10">
-				<!--LINKS ENCABEZADO -->
+				<div class="col-10"><!--LINKS ENCABEZADO -->
 					<nav class="links">
 						<a href="">LIVE</a>
 						<a href="">SHOWS</a>
@@ -27,12 +26,11 @@
 					</nav>
 				</div>
 			</div>
-		</header> 
-		<section class="segunda">
-		<!--TITULO INICIO -->
+		</header> <!-- CIERRE HEADER -->
+		<section class="segunda"> <!--SECTION 1 -->
 			<div class="seccion-dos">
-				<h4 class="titulo h"><strong>Latest episodes</strong></h4>
-				<p class="titulo p"><strong>More episodes</strong></p> 
+				<div class="Lastest"><strong>Lastest episodes</strong><a class="more" href="#">More episodes →</a></div>
+ 
 				<!--PRIMERAS IMAGENES -->
 				<div class="row">
 					<div class="col-3 nombres">
@@ -49,8 +47,8 @@
 					</div>
 				</div>
 			</div> 
-		</section>
-		<!--IMAGENES CHICAS DE ABAJO -->
+		</section><!--  CIERRE SECTION 1 -->
+				<!--IMAGENES CHICAS DE ABAJO -->
 		<section class="tercera">
 			<div class="row">
 				<div class="col-9">
@@ -179,40 +177,64 @@
 							<img class="imagenes-2" src="img/thumbs/tech-douchebags.jpg" alt="foto 5">Tech Douchebags
 						</div>	
 					</div>
-					<!-- NAVEGADOR LADO DERECHO (MENU) -->
-					<aside class="menu-derecho">
-						<div class="row">
-							<div class="col-1 none">
-							<div class="menu"> <strong>Suscribe to 5by5</strong>
-								<div class="musica"> 
-									<img src=""> <a class="enlaces" href=""></a> 
+				</div>
+			<!-- NAVEGADOR LADO DERECHO (MENU) -->
+				<aside class="menu-derecho">
+					<div class="row">
+						<div class="col-3">
+							<div class="row">
+								<div class="linea">
+									<div class="suscribe"><strong>Suscribe to 5by5</strong></div>
 								</div>
-								<div class="master"> 
-									<img src=""> <a class="enlaces" href=""></a> 
-								</div>
-								<div class="pocker"> 
-									<img src=""> <a class="enlaces" href=""></a> 
-								</div>
-								<strong>5by5 Apps</strong>
-								<div class="radio"> 
-									<img src=""> <a class="enlaces" href=""></a> 
-								</div>
-								<div class="mac"> 
-									<img src=""> <a class="enlaces" href=""></a> 
-								</div>
+								<div class="iconos-uno"><img class="ico" src="img/icons/itunes.png">  5by5 on iTunes</div>
+								<div class="iconos-dos"><img class="ico" src="img/icons/rss.png">  Master RSS Feed</div>
+								<div class="iconos-tres"><img class="ico" src="img/icons/podcast.png" width="26">  Pocket Casts</div>
 							</div>
-
+							<div class="row">
+								<div class="linea">
+									<div class="apps"><strong>5by5 Apps</strong></div>
+								</div>
+								<div class="iconos-uno"><img class="ico" src="img/icons/radio.png" width="26" >  5by5 Radio for iOS</div>
+								<div class="iconos-dos"><img class="ico" src="img/icons/pencil.png" width="26">  5by5 for Mac OS X</div>
+							</div>
+							<div class="row">
+								<div class="linea">
+									<div class="apps"></div>
+								</div>
+								<div class="text">Bandwith for July 2015 is <br>sponsored by <a href="#">CacheFly: The<br> fastest, most reliable CDN in the business</a></div>
 							</div>
 						</div>
-					</aside>
-				</div>
-			</div> 
-		</section>
-	</div>
+				</aside>
+					<!-- FOODER -->
+				<footer class="pie-de-pagina">
+					<div class="row">
+						<div class="col-12">
+							<div class="parrafo-pie">5by5 is a podcast network for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people
+							including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman.<div class="azul"> Read more...</div>
+							</div>
+							<div class="enlaces-pie-pagina">
+								<div class="row">
+									<nav class="col-12">
+										<a class="pie-pagina" href="#">About</a>
+										<a class="pie-pagina" href="#">Shows</a>
+										<a class="pie-pagina" href="#">Subscribe</a>
+										<a class="pie-pagina" href="#">iTunes</a>
+										<a class="pie-pagina" href="#">Schedule</a>
+										<a class="pie-pagina" href="#">Contact</a>
+										<a class="pie-pagina" href="#">Donate</a>
+										<a class="pie-pagina" href="#">Advertise</a>
+										<a class="pie-pagina" href="#">Newsletter</a>
+									</nav>
+								</div>
+							</div>
+							<div class="copiar">Copyright © 2009–2015 by Dan Benjamin and 5by5 Productions LLC in Austin, Texas </div>
+						</div>
+					</div>
+				</footer>
+		</section> <!-- CIERRE SECTION 2 -->
+
+	</div><!--  CIERRE CONTENDOR -->
 </body>
-</html>
-
-
 
 			
 
